@@ -12,3 +12,10 @@ for nt in seq:  ##Gera o loop de contagem
       Contagem[nt]=1;
 
 print(Contagem) ##Printa o dicionario
+
+print(Contagem.get('A')) ## Volta o numero de contagem apenas para o nucleotidio escolhido, neste caso 'A'
+
+if 'U' in Contagem.keys(): ##Verifica se a sequencia é DNA ou RNA, verificando se existe o nucleotidio 'U' no dicionario
+   print('A sequencia é um RNA')
+else:
+   print('A sequencia é um DNA')
