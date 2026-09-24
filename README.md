@@ -1,4 +1,4 @@
-# Relatorio-Usos-pr-ticos-de-dicion-rios-em-Python
+# Relatorio-Usos de dicionarios
 Repositorio para entrega do Relatorio
 
 Alunos?
